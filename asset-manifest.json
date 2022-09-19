@@ -1,16 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.073c9b0a.css",
-    "main.js": "/static/js/main.93458120.js",
+    "main.css": "/static/css/main.57bb6fc1.css",
+    "main.js": "/static/js/main.625be463.js",
+    "static/js/415.e7fede02.chunk.js": "/static/js/415.e7fede02.chunk.js",
     "static/js/787.74456e27.chunk.js": "/static/js/787.74456e27.chunk.js",
-    "static/media/logo.svg": "/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "static/media/bigbasket.png": "/static/media/bigbasket.1dea88d3c414597ade01.png",
+    "static/media/bluefly.png": "/static/media/bluefly.ee392dfc56b81dc7bc2a.png",
+    "static/media/myfitnesspal.png": "/static/media/myfitnesspal.af29ba1ae2d9890c9ea1.png",
+    "static/media/resumePic.jpg": "/static/media/resumePic.40bc69921fd12701a0bd.jpg",
+    "static/media/Harishrayala fw17_0700.pdf": "/static/media/Harishrayala fw17_0700.90748e52bac71b25a3e0.pdf",
+    "static/media/home-main.svg": "/static/media/home-main.541f8179af8209ce03ccf2178fe62dbf.svg",
+    "static/media/about.png": "/static/media/about.aee0f771fbfc1e7b8fa8.png",
+    "static/media/avatar.jpg": "/static/media/avatar.5b7b695dad12979ffb18.jpg",
+    "static/media/logo.jpg": "/static/media/logo.5b7b695dad12979ffb18.jpg",
+    "static/media/home-bg.jpg": "/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
+    "static/media/pre.svg": "/static/media/pre.d4812f51c8c80976eaab.svg",
     "index.html": "/index.html",
-    "main.073c9b0a.css.map": "/static/css/main.073c9b0a.css.map",
-    "main.93458120.js.map": "/static/js/main.93458120.js.map",
+    "main.57bb6fc1.css.map": "/static/css/main.57bb6fc1.css.map",
+    "main.625be463.js.map": "/static/js/main.625be463.js.map",
+    "415.e7fede02.chunk.js.map": "/static/js/415.e7fede02.chunk.js.map",
     "787.74456e27.chunk.js.map": "/static/js/787.74456e27.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.073c9b0a.css",
-    "static/js/main.93458120.js"
+    "static/css/main.57bb6fc1.css",
+    "static/js/main.625be463.js"
   ]
 }
