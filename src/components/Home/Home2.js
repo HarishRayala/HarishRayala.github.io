@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col, Card } from "react-bootstrap";
+import { Container, Row, Col, Card, Button } from "react-bootstrap";
 import myImg from "../../Assets/avatar.jpg";
 import Tilt from "react-parallax-tilt";
 import {
@@ -7,7 +7,9 @@ import {
   AiOutlineTwitter,
   AiFillInstagram,
   AiFillMail,
+  AiOutlineDownload,
 } from "react-icons/ai";
+import pdf from "../../Assets/../Assets/Harishrayala fw17_0700.pdf";
 import { FaLinkedinIn, FaMediumM } from "react-icons/fa";
 import { ImPointRight } from "react-icons/im";
 
@@ -83,6 +85,19 @@ function Home2() {
             </li>
           </ul>
           <p style={{ textAlign: "justify" }}>Gmail: harishrayala2379@gmail.com <br/>Contactno: 9948558343</p>
+          <br/>
+          <Row style={{ justifyContent: "center", position: "relative" }}>
+          <Button
+            variant="primary"
+            href={pdf}
+            target="_blank"
+            style={{ maxWidth: "250px" }}
+          >
+            <AiOutlineDownload />
+            &nbsp;Download CV
+          </Button>
+        </Row>
+        <br/>
           <p style={{ color: "rgb(155 126 172)" }}>
             "Strive to build things that make a difference!"{" "}
           </p>
