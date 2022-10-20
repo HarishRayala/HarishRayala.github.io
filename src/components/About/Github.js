@@ -13,12 +13,16 @@ function Github() {
           align="center"
           src="https://github-readme-streak-stats.herokuapp.com/?user=harishrayala&theme=vision-friendly-dark"
           alt="githubstats"
+          width="100%"
+          id="githubstats"
         />
         <br />
         <img
           align="center"
           src="https://github-readme-stats.vercel.app/api?username=harishrayala&show_icons=true&locale=en&theme=vision-friendly-dark"
           alt="githubstats"
+          width="100%"
+          id="githubstats"
         />
       </p>
       <GitHubCalendar
