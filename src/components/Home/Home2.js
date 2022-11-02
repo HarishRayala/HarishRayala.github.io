@@ -23,7 +23,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-              I fell in love with programming and I am fluent in classics like
+              I am fluent in classics like
               <span>
               <i>
                 <b className="purple"> CSS, HTML, Javascript and React.js. </b>
@@ -83,7 +83,7 @@ function Home2() {
               <ImPointRight /> Travelling
             </li>
           </ul>
-          <p style={{ textAlign: "justify" }}>Gmail: harishrayala2379@gmail.com <br/>Contactno: 9948558343</p>
+          <p style={{ textAlign: "justify" }}>Gmail: <a href="mailto:harishrayala2379@gmail.com" className="mail" target="-blank" >harishrayala2379@gmail.com </a> <br/>Contactno: <a href="tel:9948558343" target="-blank" className="mail" >9948558343</a> </p>
           <br/>
           <Row style={{ justifyContent: "center", position: "relative" }}>
           <Button

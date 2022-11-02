@@ -316,6 +316,10 @@ button:focus {
     padding-bottom: 2em !important;
   }
 }
+.mail{
+  text-decoration: none;
+  color: white;
+}
 
 .home-about-section {
   position: relative;
