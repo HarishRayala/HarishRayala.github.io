@@ -1,0 +1,65 @@
+.contacts {
+  background-color: #FDFDBD ;
+  text-align: center;
+}
+.contacts h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 500;
+  color: #05386b;
+}
+.center-div {
+  height: 50px;
+  margin: auto;
+  text-align: center;
+}
+.contacts .phone {
+  color: black;
+  display: block;
+  text-align: center;
+  margin: 0.7rem;
+}
+.contacts .phone a {
+  color: black;
+  border-bottom: 1px solid #02040e;
+  cursor: pointer;
+}
+.contacts .phone i {
+  margin: 0.3rem 0.9rem;
+}
+
+.contacts a i {
+  font-size: 2rem;
+  margin: 3rem 1rem;
+  color: black;
+}
+
+.contacts a .fa-github:hover {
+  font-size: 1.9rem;
+  color: black;
+}
+.contacts a .fa-linkedin:hover {
+  font-size: 1.9rem;
+  color: rgb(65, 92, 245);
+}
+
+.contacts a .fa-instagram:hover {
+  font-size: 1.9rem;
+  color: palevioletred;
+}
+
+.contacts a .fa-twitter:hover {
+  font-size: 1.9rem;
+  color: rgb(42, 141, 235);
+}
+
+.contacts a .fa-envelope-o:hover {
+  font-size: 1.9rem;
+  color: red;
+}
+
+@media only screen and (max-width: 425px) {
+  .contacts {
+    width: 100%;
+  }
+}

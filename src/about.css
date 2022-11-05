@@ -1,0 +1,77 @@
+
+.about-bg {
+  background-color: #FDFDBD ;
+  width: 100%;
+}
+.about-bg h1 {
+  text-align: center;
+  color: #05386b;
+  font-size: 3rem;
+  font-weight: 500;
+  align-items: center;
+  padding-top: 1.3rem;
+}
+.about-section {
+  margin: 0rem 1rem;
+  padding: 2rem;
+  display: inline-flex;
+}
+.img {
+  align-items: center;
+  /* margin-top: 70px; */
+  margin: auto;
+}
+.img img {
+  width: 550px;
+}
+
+.about-section .para p {
+  color: black;
+  font-size: 1.5rem;
+  line-height: 40px;
+  margin: 1rem 2rem;
+  padding: 2rem;
+  text-align: left;
+  border: 5px dotted #05386b;
+}
+
+.clear {
+  height: 3.5rem;
+}
+@media only screen and (max-width: 1068px) {
+  .about-section {
+    text-align: left;
+    display: block;
+    margin: 0;
+    padding: 2rem;
+  }
+  .about-section .para p {
+    width: auto;
+  }
+  .img img {
+    /* width: 450px; */
+  }
+  
+}
+@media only screen and (max-width: 768px) {
+  .about-section {
+    border: none;
+    display: inline-block;
+  }
+  .img img {
+    display: none;
+  }
+  .about-section .para p {
+    color: black;
+    text-align: left;
+    font-size: 1.1rem;
+    line-height: 40px;
+    margin: 1rem 1rem;
+  }
+  
+}
+@media only screen and (max-width: 2500px){
+  .github{
+    padding-left: 50px;
+  }
+}
