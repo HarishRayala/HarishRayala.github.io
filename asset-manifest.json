@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1ac540df.css",
-    "main.js": "/static/js/main.fd084206.js",
+    "main.css": "/static/css/main.6dde08bc.css",
+    "main.js": "/static/js/main.f4f30609.js",
     "static/media/bigbasket.png": "/static/media/bigbasket.1dea88d3c414597ade01.png",
     "static/media/bluefly.png": "/static/media/bluefly.ee392dfc56b81dc7bc2a.png",
     "static/media/myfitnesspal.png": "/static/media/myfitnesspal.af29ba1ae2d9890c9ea1.png",
@@ -9,11 +9,11 @@
     "static/media/avatar.jpg": "/static/media/avatar.5062c58efc1c4402130a.jpg",
     "static/media/about-me.png": "/static/media/about-me.be82c65c420c09502a66.png",
     "index.html": "/index.html",
-    "main.1ac540df.css.map": "/static/css/main.1ac540df.css.map",
-    "main.fd084206.js.map": "/static/js/main.fd084206.js.map"
+    "main.6dde08bc.css.map": "/static/css/main.6dde08bc.css.map",
+    "main.f4f30609.js.map": "/static/js/main.f4f30609.js.map"
   },
   "entrypoints": [
-    "static/css/main.1ac540df.css",
-    "static/js/main.fd084206.js"
+    "static/css/main.6dde08bc.css",
+    "static/js/main.f4f30609.js"
   ]
 }
