@@ -48,9 +48,9 @@
   .about-section .para p {
     width: auto;
   }
-  .img img {
-    /* width: 450px; */
-  }
+  /* .img img {
+    width: 450px;
+  } */
   
 }
 @media only screen and (max-width: 768px) {
@@ -59,7 +59,8 @@
     display: inline-block;
   }
   .img img {
-    display: none;
+    /* display: none; */
+    width: 350px;
   }
   .about-section .para p {
     color: black;
@@ -68,10 +69,8 @@
     line-height: 40px;
     margin: 1rem 1rem;
   }
+  /* .github{
+    width:100%;
+  } */
   
-}
-@media only screen and (max-width: 2500px){
-  .github{
-    padding-left: 50px;
-  }
 }

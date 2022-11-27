@@ -1,6 +1,14 @@
 import React, { useState } from "react";
 import "./Home.css";
 import Image from "./img/avatar.jpg";
+import { CgFileDocument } from "react-icons/cg";
+import {
+  AiOutlineHome,
+  AiOutlineFundProjectionScreen,
+  AiOutlineUser,
+  AiOutlineContacts,
+  AiOutlineTool,
+} from "react-icons/ai";
 
 function Home() {
   // fixed Header
@@ -23,22 +31,22 @@ function Home() {
             <div className="ul-li">
               <ul className="navbar d__flex">
                 <a href="#Home">
-                  <li className="nav__items mx__15">Home</li>
+                   <li className="nav__items mx__15"><AiOutlineHome />Home</li>
                 </a>
                 <a href="#about">
-                  <li className="nav__items mx__15">About</li>
+                  <li className="nav__items mx__15"> <AiOutlineUser/> About</li>
                 </a>
                 <a href="#About">
-                  <li className="nav__items mx__15">Skills</li>
+                  <li className="nav__items mx__15"> <AiOutlineTool/> Skills</li>
                 </a>
                 <a href="#projects">
-                  <li className="nav__items mx__15">Projects</li>
+                  <li className="nav__items mx__15"><AiOutlineFundProjectionScreen/> Projects</li>
                 </a>
                 <a href="#Contact">
-                  <li className="nav__items mx__15">Contact</li>
+                  <li className="nav__items mx__15"><AiOutlineContacts/> Contact</li>
                 </a>
                 <a href="Harish-Rayala-Resume.pdf" target="-blank">
-                  <li className="nav__items mx__15">Resume</li>
+                  <li className="nav__items mx__15"><CgFileDocument/> Resume</li>
                 </a>
               </ul>
             </div>
@@ -66,23 +74,23 @@ function Home() {
             <div className="sideNavbar">
               <ul className="sidebar d__flex">
                 <li className="sideNavbar">
-                  <a href="#Home">Home</a>
+                  <a href="#Home"><AiOutlineHome/> Home</a>
                 </li>
                 <li className="sideNavbar">
-                  <a href="#about">About</a>
+                  <a href="#about"><AiOutlineUser/> About</a>
                 </li>
                 <li className="sideNavbar">
-                  <a href="#About">Skills</a>
+                  <a href="#About"><AiOutlineTool/> Skills</a>
                 </li>
                 <li className="sideNavbar">
-                  <a href="#projects">Projects</a>
+                  <a href="#projects"><AiOutlineFundProjectionScreen/> Projects</a>
                 </li>
 
                 <li className="sideNavbar">
-                  <a href="#Contact">Contact</a>
+                  <a href="#Contact"><AiOutlineContacts/> Contact</a>
                 </li>
                 <li className="sideNavbar">
-                  <a href="Harish-Rayala-Resume.pdf" target="-blank" >Resume</a>
+                  <a href="Harish-Rayala-Resume.pdf" target="-blank" ><CgFileDocument/> Resume</a>
                 </li>
               </ul>
             </div>

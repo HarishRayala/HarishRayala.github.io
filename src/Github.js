@@ -26,8 +26,9 @@ function Github() {
         />
         <br/>
         <br/>
-        <div style={{color:"black"}} >
+        <div style={{color:"black"}}  >
         <GitHubCalendar 
+        className="github"
         username="HarishRayala"
         blockSize={15}
         blockMargin={5}
