@@ -1,1 +1,517 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/favicon.png"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Web site created using create-react-app"/><link rel="manifest" href="/manifest.json"/><link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"/><title>Harish | Portfolio</title><meta name="description" content="Self Developed personal website build with React.js"><meta itemprop="name" content="Harish | Portfolio"><meta itemprop="description" content="Self Developed personal website build with React.js"><meta itemprop="image" content="https://github.com/HarishRayala/MyPortfolio/blob/master/Images/readme-img.png"><meta property="og:url" content="https://harishrayala-portfolio.vercel.app/"><meta property="og:type" content="website"><meta property="og:title" content="Harish | Portfolio"><meta property="og:description" content="Self Developed personal website build with React.js"><meta property="og:image" content="https://github.com/HarishRayala/MyPortfolio/blob/master/Images/readme-img.png"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Harish | Portfolio"><meta name="twitter:description" content="Self Developed personal website build with React.js"><meta name="twitter:image" content="https://github.com/HarishRayala/MyPortfolio/blob/master/Images/readme-img.png"><script defer="defer" src="/static/js/main.beb2c664.js"></script><link href="/static/css/main.6cac7ef5.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HARISH RAYALA | MERN STACK DEVELOPER</title>
+  <link rel="shortcut icon" href="https://img.icons8.com/office/80/000000/person-male-skin-type-1-2.png" type="image/x-icon">
+  <!-- ===== CSS Files ===== -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- ====== Style Switcher ====== -->
+  <link rel="stylesheet" href="css/skins/color-1.css" class="alternate-style" title="color-1">
+  <link rel="stylesheet" href="css/skins/color-2.css" class="alternate-style" title="color-2" disabled>
+  <link rel="stylesheet" href="css/skins/color-3.css" class="alternate-style" title="color-3" disabled>
+  <link rel="stylesheet" href="css/skins/color-4.css" class="alternate-style" title="color-4" disabled>
+  <link rel="stylesheet" href="css/skins/color-5.css" class="alternate-style" title="color-5" disabled>
+  <link rel="stylesheet" href="css/style-switcher.css">
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script type="text/javascript">
+(function() {
+emailjs.init("tLOOFQwBlzytxIVz0");
+})();
+</script>
+</head>
+<body class="dark">
+
+    <div class="msg-pop-up">Message Sent, Thank You.</div>
+    <div class="failed-msgpop">Please Fill Proper Information</div>
+
+  <!-- ===== Main Container Start ===== -->
+  <div class="main-container">
+    <!-- ===== Aside Start ===== -->
+    <div class="aside">
+      <div class="logo">
+        <a href="#"><span>p</span>ortfolio</a>
+      </div>
+      <div class="nav-toggler">
+        <span></span>
+      </div>
+      <ul class="nav">
+        <li><a href="#home" class="active"><i class="fa fa-home"></i> Home</a></li>
+        <li><a href="#about"><i class="fa fa-user"></i> About</a></li>
+        <li><a href="#services"><i class="fa fa-list"></i>Skills</a></li>
+        <li><a href="#portfolio"><i class="fa fa-briefcase"></i>Projects</a></li>
+        <li><a href="#contact"><i class="fa fa-comments"></i>Contact</a></li>
+      </ul>
+    </div>
+    <!-- ===== Aside End ===== -->
+    <!-- ===== Main Content Start ===== -->
+    <div class="main-content">
+      <!-- ===== Home Section Start ===== -->
+      <section class="home active section" id="home"> 
+        <div class="container">
+          <div class="row" id="heroimgrevv">
+            <div class="home-info padd-15">
+              <h3 class="hello">Hello, my name is <br/> <span class="name">Harish Rayala</span></h3>
+              <h3 class="my-profession">I' m a <span class="typing"></span></h3>
+              <div class="introdu">Passionate Web Developer.
+                Skilled, collaborative and
+                attentive developer with a drive
+                to develop the most relevant
+                products. Always looking
+                forward to learning something
+                new to strengthen skills learned.
+                <div>
+                  <li>Company: Towno</li>
+                  <li>Designation: Front-End Developer</li>
+                  <li>March-2023 to Present</li>
+                </div>
+                </div>
+                <div class="home__icon_cont">
+                  <a href="https://github.com/HarishRayala" target="_blank"><div class="icon"><i class="fab fa-github"></i></div></a>
+                  <a href="https://www.linkedin.com/in/harish-rayala/" target="_blank"><div class="icon"><i class="fab fa-linkedin"></i></div></a>
+                  <!-- <a href="https://twitter.com/i_amHarish" target="_blank"><div class="icon"><i class="fab fa-twitter"></i></div></a> -->
+                
+                </div>
+              <a href="./Resume/HarishRayala_Resume.pdf" download="Harish Rayala Resume" class="btn">Download Resume</a>
+            </div>
+            <div class="home-img padd-15">
+              <img src="images/harish.jpeg" alt="harish_image">
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- ===== Home Section End ===== -->
+      <!-- ===== About Section Start ===== -->
+      <section class="about section" id="about"> 
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>About Me</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="about-content padd-15">
+              <div class="row">
+                <div class="about-text padd-15">
+                  <p>Hello! My name is Harish Rayala. I am a passionate web developer with a keen eye for design and a love for creating engaging user experiences. 
+                    <br/> 
+                    With a solid foundation in HTML, CSS, JavaScript, React, Node, Express and MongoDB, I am dedicated to continuously learning and mastering new technologies to bring innovative ideas to life on the web.</p>
+                </div>
+              </div>
+              <div class="row about___box">
+                <div class="personal-info padd-15">
+                  <div class="row about___info">
+                  
+                  
+                    <div class="info-item padd-15 adjus">
+                      <p ><i class="fas fa-user-graduate"></i> <a href="https://www.linkedin.com/in/harish-rayala/" target="_blank">HarishRayala-LinkedIn</a></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p><i class="far fa-envelope"></i> <a href="mailto:harishrayala2379@gmail.com" target="_blank"> harishrayala2379@gmail.com</a></p>
+                    </div>
+                   
+                    <div class="info-item padd-15">
+                      <p><i class="fas fa-mobile-alt"></i> <a href="tel:+919948558343" target="_blank"> +91-9948558343</a></p>
+                    </div>
+                    <div class="info-item padd-15">
+                      <p><span><i class="fas fa-map-marker-alt"></i> Visakhapatnam, Andhra Pradesh</span></p>
+                    </div>
+                    
+                  </div>
+                  <div class="row">
+                    <div class="buttons padd-15">
+                      <a href="#contact" data-section-index="1" class="btn hire-me">Hire Me</a>
+                    </div>
+                  </div>
+                </div>
+              
+
+                <!-- <h2 class="edu">Education</h2> -->
+                <div class="section-title padd-15 margtop">
+                  <h2>Education</h2>
+                </div>
+                <div class="EDUCATION">
+                  <div>
+                    <div class="eduupdate">
+                    <div class="edu_cont">
+                      <h4 class="course_">B.Tech (Electrical & Electronics Engineering)</h4>
+                      <p class="institute">Vignan's Institute of Information and Technology, A.P </p>
+                      <!-- <p class="marks">CGPA: 9.3</p> -->
+                      <p class="duration">August 2014 - March 2018</p>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+
+                <div class="section-title padd-15 margtop">
+                  <h2>Certification</h2>
+                </div>
+                <div class="EDUCATION">
+                  <div>
+                    <div class="eduupdate">
+                    <div class="edu_cont">
+                      <h4 class="course_">Full-Stack Web Development</h4>
+                      <p class="institute">Masai School, Bangalore</p>
+                      <p class="duration">Feb 2022 - Dec 2022</p>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+
+              </div>
+             
+              </div>
+            </div>
+          </div> 
+        </div>
+      </section>
+      <!-- ===== About Section End ===== -->
+      <!-- ===== Services Section Start ===== -->
+      <section class="service section" id="services">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>My Skills</h2>
+            </div>
+          </div>
+          <div class="row">
+            <!-- ===== Service item Start ====== -->
+            <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="">
+                  <img src="https://img.icons8.com/color/50/000000/html-5--v1.png"/>
+                </div>
+                <h4>HTML</h4>
+              </div>
+            </div>
+            <!-- ===== Service item End ====== -->
+             <!-- ===== Service item Start ====== -->
+             <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="">
+                  <img src="https://img.icons8.com/color/50/000000/css3.png"/>
+                </div>
+                <h4>CSS</h4>
+              </div>
+            </div>
+            <!-- ===== Service item End ====== -->
+             <!-- ===== Service item Start ====== -->
+             <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="">
+                  <img src="https://img.icons8.com/color/50/000000/javascript--v2.png"/>
+                </div>
+                <h4>JavaScript</h4>
+              </div>
+            </div>
+            <!-- ===== Service item End ====== -->
+             <!-- ===== Service item Start ====== -->
+             <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="">
+                  <img src="https://img.icons8.com/color/50/000000/react-native.png"/>
+                </div>
+                <h4>React.js</h4>
+              </div>
+            </div>
+              <!-- ===== Service item End ====== -->
+              <!-- ===== Service item Start ====== -->
+             <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="">
+                  <img src="https://img.icons8.com/color/50/000000/redux.png" width="48px"/>
+                </div>
+                <h4>Redux</h4>
+              </div>
+            </div>
+            <!-- ===== Service item End ====== -->
+            <!-- ===== Service item Start ====== -->
+            <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="">
+                  <img width="48" height="48" src="https://img.icons8.com/fluency-systems-regular/48/nextjs.png" alt="nextjs"/>
+                </div>
+                <h4>Next.js</h4>
+              </div>
+            </div>
+              <!-- ===== Service item End ====== -->
+              <!-- ===== Service item Start ====== -->
+             <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="">
+                  <img src="https://img.icons8.com/color/50/000000/mongodb.png"/>
+                </div>
+                <h4>MongoDB</h4>
+              </div>
+            </div>
+            <!-- ===== Service item End ====== -->
+             <!-- ===== Service item Start ====== -->
+             <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="">
+                  <img width="48" height="48" src="https://img.icons8.com/ios/48/express-js.png" alt="express-js"/>
+                </div>
+                <h4>Express.js</h4>
+              </div>
+            </div>
+            <!-- ===== Service item End ====== -->
+             <!-- ===== Service item Start ====== -->
+             <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="">
+                  <img width="48" height="48" src="https://img.icons8.com/color/48/nodejs.png" alt="nodejs"/>
+                </div>
+                <h4>Node.js</h4>
+              </div>
+            </div>
+            <!-- ===== Service item End ====== -->
+            <!-- ===== Service item Start ====== -->
+             <!-- <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="">
+                  <img src="https://img.icons8.com/color/50/000000/mysql-logo.png"/>
+                </div>
+                <h4>MySQL</h4>
+              </div>
+            </div> -->
+            <!-- ===== Service item End ====== -->
+              <!-- ===== Service item Start ====== -->
+             <!-- <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="">
+                  <img width="48" height="48" src="https://img.icons8.com/color/48/java-coffee-cup-logo--v1.png" alt="java"/>
+                </div>
+                <h4>Java</h4>
+              </div>
+            </div> -->
+            <!-- ===== Service item End ====== -->
+             <!-- ===== Service item Start ====== -->
+             <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="">
+                  <img width="48" height="48" src="https://img.icons8.com/dusk/64/000000/postman-api.png" alt="postman"/>
+                </div>
+                <h4>Postman</h4>
+              </div>
+            </div>
+            <!-- ===== Service item End ====== -->
+             <!-- ===== Service item Start ====== -->
+             <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="">
+                  <img width="48" height="48" src="https://img.icons8.com/color/48/npm.png" alt="npm"/>
+                </div>
+                <h4>NPM</h4>
+              </div>
+            </div>
+            <!-- ===== Service item End ====== -->
+             <!-- ===== Service item Start ====== -->
+             <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="">
+                  <img width="48" height="48" src="https://img.icons8.com/color-glass/48/bootstrap.png" alt="bootstrap"/>
+                </div>
+                <h4>Bootstrap</h4>
+              </div>
+            </div>
+            <!-- ===== Service item End ====== -->
+            <!-- ===== Service item Start ====== -->
+            <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="">
+                  <img width="48" height="48" src="https://img.icons8.com/color/48/sass-avatar.png" alt="sass"/>
+                </div>
+                <h4>Sass</h4>
+              </div>
+            </div>
+            <!-- ===== Service item End ====== -->
+            <!-- ===== Service item Start ====== -->
+            <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="">
+                  <img width="48" height="48" src="https://img.icons8.com/color/48/material-ui.png" alt="material-ui"/>
+                </div>
+                <h4>Material UI</h4>
+              </div>
+            </div>
+            <!-- ===== Service item End ====== -->
+            <!-- ===== Service item Start ====== -->
+            <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="">
+                  <img width="48" height="48" src="https://img.icons8.com/color/48/chakra-ui.png" alt="chakra-ui"/>
+                </div>
+                <h4>Chakra UI</h4>
+              </div>
+            </div>
+            <!-- ===== Service item End ====== -->
+            <!-- ===== Service item Start ====== -->
+            <!-- <div class="service-item padd-15">
+              <div class="service-item-inner">
+                <div class="">
+                  <img width="48" height="48" src="https://img.icons8.com/color/48/tailwindcss.png" alt="tailwindcss"/>
+                </div>
+                <h4>Tailwind CSS</h4>
+              </div>
+            </div> -->
+            <!-- ===== Service item End ====== -->
+          </div>
+        </div>
+      </section>
+      <!-- ===== Services Section End ===== -->
+      <!-- ===== Portfolio Section Start ===== -->
+      <section class="portfolio section" id="portfolio">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Few Things I've Build</h2>
+            </div>
+          </div>
+          <div class="row">
+            <div class="portfolio-heading padd-15">
+              <!-- <h2>Team and Indivisual Projects : </h2> -->
+            </div>
+          </div>
+          <div class="row"  id="projects--container">
+            <!-- ====== portfolio item start ====== -->
+          
+            <!-- ====== portfolio item End ====== -->
+
+          </div>
+        </div>
+      </section>
+      <!-- ===== Portfolio Section End ===== -->
+      <!-- ===== Contact Section Start ===== -->
+      <section class="contact section" id="contact">
+        <div class="container">
+          <div class="row">
+            <div class="section-title padd-15">
+              <h2>Contact Me</h2>
+            </div>
+          </div>
+          <h3 class="contact-title padd-15">Connect With Me On : </h3>
+          <h4 class="contact-sub-title padd-15">I'M VERY RESPONSIVE TO MESSAGES</h4>
+          <div class="row">
+            <!-- ===== Contact info item start ====== -->
+            <div class="contact-info-item padd-15">
+              <a href="https://www.linkedin.com/in/harish-rayala/" target="_blank"><div class="icon"><i class="fab fa-linkedin"></i></div>
+              <h4>Linkedin</h4>
+              <p>Harish-Rayala</p></a>
+            </div>
+            <!-- ===== Contact info item end ====== -->
+             <!-- ===== Contact info item start ====== -->
+             <!-- <div class="contact-info-item padd-15">
+              <a href="https://twitter.com/KonalaDivya" target="_blank"><div class="icon"><i class="fab fa-twitter"></i></div>
+              <h4>Twitter</h4>
+              <p>KonalaDivya</p></a>
+            </div> -->
+            <!-- ===== Contact info item end ====== -->
+             <!-- ===== Contact info item start ====== -->
+             <div class="contact-info-item padd-15">
+              <a href="mailto:harishrayala2379@gmail.com" target="_blank"><div class="icon"><i class="fa fa-envelope"></i></div>
+              <h4>Email</h4>
+              <p>harishrayala2379 <br> @gmail.com</p></a>
+            </div>
+            <!-- ===== Contact info item end ====== -->
+             <!-- ===== Contact info item start ====== -->
+             <div class="contact-info-item padd-15">
+              <a href="https://github.com/HarishRayala" target="_blank"><div class="icon"><i class="fab fa-github"></i></div>
+              <h4>GitHub</h4>
+              <p>HarishRayala</p></a>
+            </div>
+            <!-- ===== Contact info item end ====== -->
+             <!-- ===== Contact info item start ====== -->
+             <div class="contact-info-item padd-15">
+              <a href="tel:+919948558343" target="_blank"><div class="icon"><i class="fas fa-mobile-alt"></i></div>
+              <h4>Mobile</h4>
+              <p>+91-9948558343</p></a>
+            </div>
+            <!-- ===== Contact info item end ====== -->
+          </div>
+          <h3 class="contact-title padd-15">SEND ME AN EMAIL</h3>
+          <h4 class="contact-sub-title padd-15">I'M VERY RESPONSIVE TO MESSAGES</h4>
+          <!-- ====== Contact Form ====== -->
+          <form method="POST" onsubmit="SendMSG(event)">
+          <div class="row">
+            <div class="contact-form padd-15">
+              <div class="row">
+                <div class="form-item col-6 padd-15">
+                  <div class="form-group">
+                    <input id="name" type="text" class="form-control" placeholder="Name">
+                  </div>
+                </div>
+                <div class="form-item col-6 padd-15">
+                  <div class="form-group">
+                    <input id="email" type="email" class="form-control" placeholder="Email">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-item col-12 padd-15">
+                  <div class="form-group">
+                    <input id="subject" type="text" class="form-control" placeholder="Subject">
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-item col-12 padd-15">
+                  <div class="form-group">
+                    <textarea name="" class="form-control" id="message"  placeholder="Message"></textarea>
+                  </div>
+                </div>
+              </div>
+              <div class="row">
+                <div class="form-item col-12 padd-15">
+                  <button id="send_msg" type="submit" class="btn">Send Message</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </form>
+        </div>
+        <div>
+          <p class="contact-sub-title padd-15">Made with ❤ By Harish Rayala</p>
+        </div>
+      </section>
+      <!-- ===== Contact Section End ===== -->
+    </div>
+    <!-- ===== Main Content End ===== -->
+  </div>
+  <!-- ===== Main Container End ===== -->
+  <!-- ===== Style Switcher Start ===== -->
+  <div class="style-switcher">
+    <div class="style-switcher-toggler s-icon">
+      <i class="fas fa-cog fa-spin"></i>
+    </div>
+    <div class="day-night s-icon">
+      <i class="fas "></i>
+    </div>
+    <h4>Theme Colors</h4>
+    <div class="colors">
+      <span class="color-1" onclick="setActiveStyle('color-1')"></span>
+      <span class="color-2" onclick="setActiveStyle('color-2')"></span>
+      <span class="color-3" onclick="setActiveStyle('color-3')"></span>
+      <span class="color-4" onclick="setActiveStyle('color-4')"></span>
+      <span class="color-5" onclick="setActiveStyle('color-5')"></span>
+    </div>
+  </div>
+  <!-- ===== Style Switcher End ===== -->
+  <!-- ===== JS Files ===== -->
+
+  <!-- <script src="https://smtpjs.com/v3/smtp.js"></script> -->
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"></script>
+  <script src="js/script.js"></script>
+  <script src="js/style-switcher.js"></script>
+  <script src="js/mail.js"></script>
+  <script src="./projects/project.js"></script>
+</body>
+</html>
